@@ -114,8 +114,7 @@ enter.MouseButton1Down:connect(function()
 	if key.Text == "aku" then
 		Frame.Visible = false
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/DikerR25/KRYZ-GUI-DikerR25/main/IFUWANTKRYZ"))()
-		if not key.Text == "aku" then
+		 else
 			loadstring(game:HttpGet("https://pastebin.com/raw/b4cunx4U"))()
-		end
 	end
 end)
